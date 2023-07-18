@@ -1,0 +1,478 @@
+.container{
+    width: 80%;
+    background-color:ghostwhite;
+    height: 1000px;
+    position: absolute;
+    left: 150px;
+}
+a{
+    text-decoration: none;
+}
+.p1 a{
+    text-decoration: none;
+    color: black;
+}
+.p2{
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+.face{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    margin-top: 5px;
+}
+.google{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    margin-top: 5px;
+}
+.twi{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    margin-top: 5px;
+}
+.link{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 245px;
+    margin-top: 5px;
+}
+.head{
+    height: 100px;
+    width: 80%;
+    background-color: white;
+    border: 2px solid white;
+    position: fixed;
+    backdrop-filter: blur(20px);
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.uldiv{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+.uldiv li{
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+
+}
+.book{
+    background-color: tomato;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    top: 15px;
+    left: 700px;
+    margin-left: 20px;
+}
+.li1{
+    position: absolute;
+    top: -7px;
+}
+.uldiv .li1 a{
+    font-size: 15px;
+    position: relative;
+    top: -8px;
+    left: 5px;
+    font-weight: 500;
+    color: white;
+}
+.uldiv a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.oran{
+    position: absolute;
+    left: 690px;
+    height: 320px;
+    width: 480px;
+    top: 200px;
+
+    animation: orang 3s ease infinite alternate;
+}
+@keyframes orang {
+    from{
+        left: 690px;
+        top: 200px;  
+    }
+    to{
+        left: 690px;
+        top: 250px;
+    }
+}
+.toporan{
+    position: absolute;
+    left: 720px;
+    height: 450px;
+    width: 450px;
+    top: 140px;
+}
+h1{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    font-size: 60px;
+}
+.para{
+    font-size: 25px;
+    position: relative;
+    top:350px ;
+    height: 200px;
+    width: 550px;
+}
+.search{
+    height: 20px;
+    width: 20px;
+}
+.cart{
+    height: 25px;
+    width: 25px;
+}
+.view{
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    top: 360px;
+}
+.view h3{
+    padding-left: 20px;
+    position: relative;
+    top: 6px;
+    left: -4px;
+    color: white;
+    font-size: 20px;
+}
+.view h3:hover{
+    transform: scale(1.1);
+}
+.booka{
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    position: relative;
+    top: 320px;
+    left: 200px;
+}
+.booka h3{
+    padding-left: 20px;
+    position: relative;
+    top: 5px;
+    left: -4px;
+    color: white;
+    font-size: 20px;
+}
+.booka:hover{
+    transform: scale(1.1);
+}
+
+.carousel-inner{
+    position: relative;
+    top: 350px;
+}
+.d-block{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 0px;
+    left: 520px;
+}
+.cust{
+    width: 480px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: darkgreen;
+    font-size: 15px;
+    position: relative;
+    top: 400px;
+    left: 380px;
+}
+.cust .cust1{
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.cho{
+    position: relative;
+    top: 400px;
+    left: 120px;
+    align-items: center;
+}
+.pa{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    top: 400px;
+    left: 400px;
+    display: flex;
+    color: black;
+    font-size: 20px;
+}
+.pa .pa1{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.pri{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 400px;
+    left: 20px;
+}
+.pri .pr{
+    background-color: tomato;
+    border-radius: 8px;
+    height: 25px;
+    width: 70px;
+    color: white;
+    font-size: bold;
+    padding-left: 10px;
+}
+.pri .pri1{
+    padding-top: 20px;
+}
+.pri .pri2{
+    padding-top: 20px;
+}
+.pac{
+    height: 450px;
+    width: 500px;
+    position: relative;
+    top: -450px;
+    left: 600px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 2px;
+}
+.pac:hover{
+    box-shadow: 0px 2px 4px 4px;
+    
+}
+.pac1{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.pac2{
+    position: relative;
+    top: 8px;
+    left: 200px;
+    border-radius: 6px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+.pac3{
+    height: 40px;
+    width: 130px;
+    background-color: darkgreen;
+    border-radius: 8px;
+    position: relative;
+    top: 80px;
+    left: -220px;
+    color: white;
+}
+.pac4{
+    background-color: darkgreen;
+    color: white;
+    height: 40px;
+    width: 300px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+}
+.pac5{
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+.pac6{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: 20px;
+}
+.pac7{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.pac8{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.pac9{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.con{
+    width: 1200px;
+    height: 450px;
+    background-color: red;
+    position: relative;
+    top: -380px;
+    left: -10px;
+}
+.con1{
+    height: 80px;
+    width: 120px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.con2{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    font-size: 18px;
+}
+.con3{
+    height: 450px;
+    width: 400px;
+    background-color: ghostwhite;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.con4{
+    position: relative;
+    top: 80px;
+}
+.con5{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    left: 900px;
+    top: -450px;
+    background-color: ghostwhite;
+}
+.con5 h5{
+   text-align: center;
+   padding-top: 40px;
+}
+.con6 h5{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+.con6{
+    text-decoration: none;
+    color: black;
+}
+.con7{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: -20px;
+}
+.con8{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: -60px;
+}
+.con9{
+    height: 200px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: -55px;
+}
+.con10{
+    height: 450px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    top: -900px;
+    background-color: ghostwhite;
+}
+.con10 h4{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.con10 pre{
+    position: relative;
+    top: 100px;
+    left:20px;
+    font-size: 18px;
+
+}
+.con11{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    top: 120px;
+    left: 60px;
+}
+.con12{
+    height: 60px;
+    width: 150px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+.img1{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.img2{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.img3{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+.img4{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
